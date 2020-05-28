@@ -102,7 +102,6 @@ for i in tqdm(range(len(BODY_PARTS))):
     else :
         points.append(None)
 
-
 for pair in tqdm(POSE_PAIRS):
     partFrom = pair[0]
     partTo = pair[1]
